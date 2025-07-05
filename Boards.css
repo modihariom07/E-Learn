@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 90vmin;
+    width: 100%;
+    background-color: rgb(18, 36, 36);
+}
+h1{
+    font-size: 5rem;
+    margin-left: 41%;
+    letter-spacing: 0.5rem;  
+    color: white; 
+}
+.main1{
+    height: 85vmin;
+    width: 100%;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: 5vmin;
+   gap: 2em;
+}
+p{
+    font-size: 3rem;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+.button{
+    height: 30vmin;
+    width: 40vmin;
+    background-color: darkslategray;
+    font-size: 3rem;
+    border-radius: 10px;
+}

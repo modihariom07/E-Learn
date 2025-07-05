@@ -1,0 +1,192 @@
+body{
+    margin:0px;
+    padding:0px;
+}    
+header{
+    height:100px;
+    width:100%;
+    background-color: rgb(27, 48, 48);
+}
+.menu{
+    height:50%;
+    width: 10%;
+    position: absolute;
+  bottom: 30px;
+  left: 15px;
+  color: white;
+   }
+.menubar{
+    height:100px;
+    width:100%;
+    background-color: rgb(18, 36, 36);
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+}
+.projectname{
+    height: 55%;
+    width: 50%;
+    background-color:rgb(8, 9, 9);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  a[href="Login.html"]
+  {
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 100;
+text-decoration: none;
+  }
+.menu2,.menu4{
+    height:40%;
+    width: 37%;
+    border-radius: 5%;
+    padding: 6%;
+    background-color:rgb(8, 9, 9);
+    margin-top: 4px;
+    margin-left: 30px;
+  }
+  .menu3,.menu1{
+    height:40%;
+    width: 37%;
+    border-radius: 5%;
+    padding: 6%;
+    background-color:rgb(8, 9, 9);
+    margin-top: 4px;
+    margin-left: 30px;
+  }
+  .menu1:hover{
+    background-color: rgb(51, 189, 189) ;
+  }
+  .menu2:hover{
+    background-color: rgb(51, 189, 189) ;
+  }
+  .menu3:hover{
+    background-color: rgb(51, 189, 189) ;
+  }
+.menu4:hover{
+    background-color: rgb(51, 189, 189)  ;
+  }
+main{
+    height: 700px;
+    width:100%;
+    background-color: rgb(18, 36, 36);
+}
+.main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 700px;
+    width: 100%;
+    padding: 0px;
+    margin: 0%;
+  }
+  
+  .back{
+    padding: 0%;
+    height: 100%;
+    display: inline-flex;
+   }
+   .back1{
+    height: 50%;
+    width: 50%;
+   background-image: url('All\ images/login1.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   border-radius: 50px;
+  }
+  .back2{
+    margin-top: 350px;
+    height: 50%;
+    width: 50%;
+    background-image: url('All\ images/login2.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+  border-radius: 50px;
+  }
+.login{
+    margin: 0px;
+    padding:0px;
+    position: relative;
+    background-color: white;
+    background-image: url('All\ images/loginup.jpg');
+    background-size: 100% 100% 0.5;
+    background-repeat: no-repeat;
+  
+  }
+  .login1{
+    background-color:  rgb(79, 164, 198);
+    height: 70%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top:24% ;
+    margin-right:5%;
+    border-radius: 35px;
+    padding: 5px;
+    border: 2px solid black;
+  
+   }
+   .details{
+    height: 50%;
+    width:80%;
+    background-color:  rgb(79, 164, 198);
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 5%;
+    
+   }
+   #username{
+    border-radius:5px;
+    background-color: white;
+    font-size: larger;
+    font-weight: bold;
+    width: 80%;
+   }
+   #pwd{
+    border-radius:5px;
+    background-color: white;
+    font-size: larger;
+    font-weight: bold;
+    width: 80%;
+   }
+   #button{
+    height: 30px;
+    width: 55px;
+    margin-left: 10px;
+    border-radius: 5px;
+   }
+   #reset{
+    height: 30px;
+    width: 55px;
+    margin-left: 40%;
+    border-radius: 5px;
+   }
+#reset:hover{
+    background-color: rgb(81, 61, 168);
+}
+#button:hover{
+    background-color: rgb(81, 61, 168);
+}
+#username:hover{
+    background-color: rgb(178, 173, 203);
+}
+#pwd:hover{
+    background-color: rgb(178, 173, 203);
+}
+footer{
+    height:160px;
+    width:100%; 
+    background-color:  rgb(18, 36, 36);
+}
+.back2:hover{
+    opacity: 0.5;
+}
+.back1:hover{
+    opacity: 0.5;
+}

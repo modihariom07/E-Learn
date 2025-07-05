@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height:150vh;
+    width: 100%;
+    background-color: rgb(18, 36, 36);
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 5rem;
+    margin-left: 40%;
+    letter-spacing: 0.5rem;  
+    color: white; 
+}
+.main1{
+    height:140vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+.blocks{
+    height:18vmin;
+    width: 36vmin;
+    background-color: darkslategray;
+    font-size: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+}
+.section{
+    height:28vmin;
+    width: 46vmin;
+    background-color: rgb(6, 7, 7);
+    font-size: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+p{
+margin-bottom: 5px;
+    color: white;
+}
+
+#Class{
+    background-image: url(math/math2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#goback{
+    background-image: url(All\ Images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#home{
+    background-image: url(All\ Images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

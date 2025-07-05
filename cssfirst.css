@@ -1,0 +1,198 @@
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+padding: 0px;
+}
+header{
+height: 100px;
+width: 100%;
+margin: 0%;
+padding: 0px;
+background-color:rgb(110, 199, 199);
+position: relative;
+}
+.menu{
+  height:50%;
+  width: 10%;
+  position: absolute;
+bottom: 30;
+left: 10;
+ }
+
+.menu2{
+  height:100%;
+  width: 35%;
+  border-radius: 5%;
+  padding: 5%;
+  background-color: white;
+}
+.menu3{
+  height:100%;
+  width: 35%;
+  border-radius: 5%;
+  padding: 5%;
+  background-color: white;
+}
+.menu4{
+  height:100%;
+  width: 35%;
+  border-radius: 5%;
+  padding: 5%;
+  background-color: white;
+}
+a:link{
+ font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  color: black;
+}
+
+.menu2,.menu3,.menu4,.menu1:hover{
+  background-color: aliceblue ;
+}
+
+.projectname{
+  height: 40%;
+  width: 60%;
+  background-color:rgb(112, 176, 176);
+  position: absolute;
+  bottom: 5;
+  right: 0;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+main{
+  height: 70%;
+  width: 100%;
+  padding: 0px;
+  margin: 0%;
+  background-color: blue;
+ }
+ .main{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  position: fixed;
+  height: 70%;
+  width: 100%;
+  padding: 0px;
+  margin: 0%;
+}
+
+.back{
+  padding: 0%;
+  height: 100%;
+
+ }
+
+ .back1{
+  height: 50%;
+  width:100%;
+  background-color: green;
+  margin: 0%;
+  display: inline-flex;
+ 
+}
+
+.back4{
+  height:50%;
+  width:100%;
+  background-color:rgb(112, 176, 176);
+  margin: 0%;
+  display: inline-flex;
+ 
+}
+.back2{
+  height: 100%;
+  width: 50%;
+ background-image: url('images.jpg');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+.back5,.back3{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(112, 176, 176);
+}
+ 
+.back6{
+  height: 100%;
+  width: 50%;
+  background-image: url('1.jpeg');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+
+}
+
+.login{
+  margin: 0px;
+  padding:0px;
+  position: relative;
+  background-color: white;
+  background-image: url('2.jpeg');
+  background-size: 100% 100% 0.5;
+  background-repeat: no-repeat;
+
+}
+.login1{
+  background-color:  rgb(250, 240, 235);
+  height: 70%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top:24% ;
+  margin-right:5%;
+  border-radius: 35px;
+  padding: 5px;
+
+ }
+
+
+ .details{
+  height: 50%;
+  width:80%;
+  background-color:   rgb(250, 240, 235);
+margin-left: 5%;
+margin-top: 5%;
+padding: 5%;
+  
+ }
+ #username{
+  border-radius:5px;
+  background-color: rgb(99, 153, 135);
+  font-size: larger;
+  font-weight: bold;
+  width: 80%;
+ }
+ #pwd{
+  border-radius:5px;
+  background-color: rgb(99, 153, 135);
+  font-size: larger;
+  font-weight: bold;
+  width: 80%;
+ }
+ #button{
+  height: 30px;
+  width: 55px;
+  margin-left: 10px;
+  border-radius: 5px;
+ }
+ #reset{
+  height: 30px;
+  width: 55px;
+  margin-left: 40%;
+  border-radius: 5px;
+  cursor: progress;
+ }
+
+
+
+footer{
+  background-color:rgb(112, 176, 176);
+  height: 18%;
+  width: 100%;
+  margin: 0%;
+  padding: 0px;
+  place-items: bottom;
+ }

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height:150vh;
+    width: 100%;
+    background-color: rgb(18, 36, 36);
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 5rem;
+    margin-left: 40%;
+    letter-spacing: 0.5rem;  
+    color: white; 
+}
+.main1{
+    height:140vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+.blocks{
+    height:18vmin;
+    width: 36vmin;
+    background-color: darkslategray;
+    font-size: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+}
+.section{
+    height:28vmin;
+    width: 46vmin;
+    background-color: rgb(6, 7, 7);
+    font-size: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+p{
+margin-bottom: 5px;
+    color: white;
+}
+
+#Class{
+    background-image: url(All\ images/books.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Course{
+    background-image: url(All\ images/degree.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Professional{
+    background-image: url(All\ images/professional.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Dictionary{
+    background-image: url(All\ images/dictionary1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Language{
+    background-image: url(All\ images/language.png.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Skill-Development{
+    background-image: url(All\ images/skill1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Designing{
+    background-image: url(All\ images/designing1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#VFX-Animation{
+    background-image: url(All\ images/vfx.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Competitive-exams{
+    background-image: url(All\ images/competitive.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#News{
+    background-image: url(All\ images/news1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Biography{
+    background-image: url(All\ images/biography.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Organization{
+    background-image: url(All\ images/course1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Government{
+    background-image: url(All\ images/government.png.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Your-Account{
+    background-image: url(All\ images/account1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Mythology{
+    background-image: url(All\ images/mythology1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Motivation{
+    background-image: url(All\ images/motivation.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

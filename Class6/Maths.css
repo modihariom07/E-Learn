@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height:100vh;
+    width: 100%;
+    background-color: rgb(18, 36, 36);
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 5rem;
+    margin-left: 40%;
+    letter-spacing: 0.5rem;  
+    color: white; 
+}
+.main1{
+    height:90vh;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+.blocks{
+    height:18vmin;
+    width: 36vmin;
+    background-color: darkslategray;
+    font-size: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+}
+.section{
+    height:28vmin;
+    width: 46vmin;
+    background-color: rgb(6, 7, 7);
+    font-size: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+p{
+margin-bottom: 5px;
+    color: white;
+}
+
+#Class{
+    background-image: url(math/mathseng.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Course{
+    background-image: url(math/math2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Professional{
+    background-image: url(professional.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Dictionary{
+    background-image: url(dictionary1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Language{
+    background-image: url(language.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Skill-Development{
+    background-image: url(skill1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Home{
+    background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Go-Back{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
